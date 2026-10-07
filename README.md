@@ -1,5 +1,15 @@
 # FreshBasket - 13-week FMCG demand forecasting
 
+**Deliverables**
+- 📊 Presentation: [Google Slides](https://docs.google.com/presentation/d/1EtaKeG93wmKsL0zky1wnEtrgVzjURa3Y/edit?)
+- 🎥 Video walkthrough: [Google Drive](https://drive.google.com/file/d/1LtInsqgYvNMTFcAhMfjskK3-1Fwgb1_c/view?usp=sharing) *(if it does not play in the browser, please download it)*
+- 📄 Project report: [`docs/Project_Report.pdf`](https://drive.google.com/file/d/1AS2KyNiDIE5ZTDWRVJLn-pZeab2SICdr/view?usp=sharing)
+
+
+NOTE- if the video is not working in browser kindly download and see thank you
+
+# FreshBasket - 13-week FMCG demand forecasting
+
 Weekly unit-sales forecasts for every store x product-family combination (54 stores x 33 families =
 1,782 series) for the next 13 weeks, with prediction intervals, driver attribution, an ablation
 study and a what-if scenario simulator.
