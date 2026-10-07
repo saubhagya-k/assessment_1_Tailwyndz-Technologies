@@ -1,0 +1,25 @@
+case,feature,units
+Largest forecast,k_promo_sum,59272.832571809304
+Largest forecast,o_ma13,-40792.37457807043
+Largest forecast,o_share_of_store,-35458.44156240711
+Largest forecast,o_lag52_target,28875.53664342562
+Largest forecast,o_lag52_target_smooth,22775.053803947354
+Largest forecast,o_family_ma13,-8771.745305771923
+Largest forecast,o_ma4,-7975.368318166554
+Largest forecast,o_ma8,-7792.431041539864
+Most promotion-driven,k_promo_sum,61122.26022535222
+Most promotion-driven,o_ma13,-40652.61216094406
+Most promotion-driven,o_share_of_store,-34280.41427396982
+Most promotion-driven,o_lag52_target,27617.281827852876
+Most promotion-driven,o_lag52_target_smooth,23056.50491713018
+Most promotion-driven,o_family_ma13,-9706.646965141219
+Most promotion-driven,o_ma4,-8333.566475393905
+Most promotion-driven,o_ma8,-8027.8396272138925
+Most holiday-driven,k_promo_sum,52988.08272463853
+Most holiday-driven,o_ma13,-35108.41713869159
+Most holiday-driven,o_share_of_store,-33142.276675034824
+Most holiday-driven,o_lag52_target,26355.86452649604
+Most holiday-driven,o_lag52_target_smooth,20930.82624159411
+Most holiday-driven,o_family_ma13,-7359.647122795915
+Most holiday-driven,o_ma4,-7080.8872215870215
+Most holiday-driven,k_post_payday_days,7067.164792713266

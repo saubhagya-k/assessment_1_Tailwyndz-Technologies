@@ -1,0 +1,57 @@
+group,feature,availability
+history,o_last,known at origin (<= T)
+history,o_ma4,known at origin (<= T)
+history,o_ma8,known at origin (<= T)
+history,o_ma13,known at origin (<= T)
+history,o_ma26,known at origin (<= T)
+history,o_ma52,known at origin (<= T)
+history,o_ewm,known at origin (<= T)
+history,o_cv13,known at origin (<= T)
+history,o_zero_share13,known at origin (<= T)
+history,o_trend_4_13,known at origin (<= T)
+history,o_yoy_growth,known at origin (<= T)
+history,o_n_valid52,known at origin (<= T)
+history,o_lag52_target,known at origin (<= T)
+history,o_lag52_target_smooth,known at origin (<= T)
+hierarchy,o_store_ma4,known at origin (<= T)
+hierarchy,o_store_ma13,known at origin (<= T)
+hierarchy,o_family_ma4,known at origin (<= T)
+hierarchy,o_family_ma13,known at origin (<= T)
+hierarchy,o_share_of_store,known at origin (<= T)
+promo,k_promo_sum,known in advance for target week
+promo,k_promo_days,known in advance for target week
+promo,k_promo_assumed_share,known in advance for target week
+promo,o_promo_ma13,known at origin (<= T)
+promo,k_promo_vs_usual,known in advance for target week
+holiday,k_nat_holiday_days,known in advance for target week
+holiday,k_reg_holiday_days,known in advance for target week
+holiday,k_loc_holiday_days,known in advance for target week
+holiday,k_event_days,known in advance for target week
+holiday,k_bridge_workdays,known in advance for target week
+holiday,k_weekend_holidays,known in advance for target week
+holiday,k_closed_days,known in advance for target week
+holiday,k_earthquake_days,known in advance for target week
+holiday,k_earthquake_local_days,known in advance for target week
+calendar,k_payday_days,known in advance for target week
+calendar,k_post_payday_days,known in advance for target week
+calendar,k_week_of_year,known in advance for target week
+calendar,k_month,known in advance for target week
+calendar,k_fourier_sin1,known in advance for target week
+calendar,k_fourier_cos1,known in advance for target week
+calendar,k_fourier_sin2,known in advance for target week
+calendar,k_fourier_cos2,known in advance for target week
+calendar,k_fourier_sin3,known in advance for target week
+calendar,k_fourier_cos3,known in advance for target week
+calendar,k_weeks_to_christmas,known in advance for target week
+oil,o_oil,known at origin (<= T)
+oil,o_oil_chg4,known at origin (<= T)
+oil,o_oil_chg13,known at origin (<= T)
+transactions,o_tx_ma4,known at origin (<= T)
+transactions,o_tx_trend,known at origin (<= T)
+store_meta,store_nbr,static / horizon
+store_meta,family,static / horizon
+store_meta,city,static / horizon
+store_meta,state,static / horizon
+store_meta,store_type,static / horizon
+store_meta,store_cluster,static / horizon
+horizon,h,static / horizon

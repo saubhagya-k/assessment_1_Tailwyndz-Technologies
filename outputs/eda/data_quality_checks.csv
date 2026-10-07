@@ -1,0 +1,21 @@
+Check,Result,Treatment
+Rows in train.csv,"3,000,888",-
+Date range,2013-01-01 -> 2017-08-15,-
+Stores x families (series),"54 x 33 = 1,782",-
+"Duplicate (date, store, family) rows",0,None found
+Negative sales values,0,None found
+Calendar days missing from train,"2013-12-25, 2014-12-25, 2015-12-25, 2016-12-25",Stores closed on Christmas -> filled with 0 + flag
+Rows with zero sales,31.3%,Use Tweedie loss / zero-aware metrics
+Series that never sold,53,Forecast = 0 (product not stocked)
+Series discontinued (0 sales in last 8 wks),43,"Forecast = 0, flagged for business review"
+Stores opening after the data starts,"#20 (2015-02), #21 (2015-07), #22 (2015-10), #29 (2015-03), #36 (2013-05), #42 (2015-08), #52 (2017-04), #53 (2014-05)",Rows before opening excluded from training
+New stores (<26 wks history),3 store(s),Cold start: global model + similar-store features
+Store-days fully closed after opening,802,"Flagged, excluded from training target"
+Promotion field all-zero before,2014-04-01,Promo features masked before this date
+Oil price missing (trading days),"43 of 1,218",Time interpolation on full calendar
+Oil price - weekends not quoted,Yes,"Reindexed to daily, interpolated"
+Open store-days missing in transactions,118,Transactions used only as lagged feature
+Recording gaps (>=14 zero days in a normally-selling series),2.9% of rows,Excluded from training target (not real zero demand)
+Rows before a family's first sale in a store,18.5% of rows,Excluded (product not yet stocked)
+Holidays marked 'transferred',12,"Original date dropped, Transfer date used"
+Stores metadata coverage,54 / 54 stores,Complete

@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+.DS_Store
+data/raw/
+data/interim/
+outputs/model/
+outputs/cv/cv_predictions.parquet
