@@ -4,4 +4,4 @@ __pycache__/
 data/raw/
 data/interim/
 outputs/model/
-outputs/cv/cv_predictions.parquet
+outputs/cv/cv_predictions.parquetresults.zip
